@@ -2,6 +2,7 @@ package com.example.biologygame;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.os.Handler;
 import android.widget.Button;
@@ -14,6 +15,7 @@ public class Quest2_lvl1 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
         setContentView(R.layout.activity_quest2_lvl1);
 
         imageView4 = findViewById(R.id.imageView4);
