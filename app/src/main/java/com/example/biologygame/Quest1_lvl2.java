@@ -36,7 +36,7 @@ public class Quest1_lvl2 extends AppCompatActivity {
                 imageView4.setImageResource(R.drawable.q1_lvl1_next); // Replace with your new image resource
                 btnLevel1.setEnabled(true);
             }
-        }, 10000); // 10000 milliseconds = 10 seconds
+        }, 5000); // 10000 milliseconds = 10 seconds
 
 
         btnLevel1.setOnClickListener(new View.OnClickListener() {
@@ -54,7 +54,7 @@ public class Quest1_lvl2 extends AppCompatActivity {
                     public void run() {
                         imageView4.setImageResource(R.drawable.prokaryotic1); // Replace with your new image resource
                     }
-                }, 20000); // 10000 milliseconds = 10 seconds
+                }, 5000); // 10000 milliseconds = 10 seconds
 
 
 
@@ -65,7 +65,7 @@ public class Quest1_lvl2 extends AppCompatActivity {
                     public void run() {
                         imageView4.setImageResource(R.drawable.prokaryotic2); // Replace with your new image resource
                     }
-                }, 20000); // 10000 milliseconds = 10 seconds
+                }, 5000); // 10000 milliseconds = 10 seconds
 
 
                 handler.postDelayed(new Runnable() {
@@ -73,7 +73,7 @@ public class Quest1_lvl2 extends AppCompatActivity {
                     public void run() {
                         imageView4.setImageResource(R.drawable.eukaryotic); // Replace with your new image resource
                     }
-                }, 2000000); // 10000 milliseconds = 10 seconds
+                }, 5000); // 10000 milliseconds = 10 seconds
 
                 // Set the new image and enable the button after 10 seconds
                 handler.postDelayed(new Runnable() {
@@ -81,7 +81,7 @@ public class Quest1_lvl2 extends AppCompatActivity {
                     public void run() {
                         imageView4.setImageResource(R.drawable.eukaryotic1); // Replace with your new image resource
                     }
-                }, 20000); // 10000 milliseconds = 10 seconds
+                }, 5000); // 10000 milliseconds = 10 seconds
 
 
                 handler.postDelayed(new Runnable() {
@@ -89,7 +89,7 @@ public class Quest1_lvl2 extends AppCompatActivity {
                     public void run() {
                         imageView4.setImageResource(R.drawable.eukaryotic2); // Replace with your new image resource
                     }
-                }, 20000); // 10000 milliseconds = 10 seconds
+                }, 5000); // 10000 milliseconds = 10 seconds
 
 
 

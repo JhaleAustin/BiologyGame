@@ -2,6 +2,7 @@ package com.example.biologygame;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.view.View;
@@ -121,6 +122,13 @@ public class Quest1_lvl1 extends AppCompatActivity {
             }
         });
 
+        btn4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Quest1_lvl1.this, Quest1.class);
+                startActivity(intent);
+            }
+        });
 
         btn12.setOnClickListener(new View.OnClickListener() {
             @Override

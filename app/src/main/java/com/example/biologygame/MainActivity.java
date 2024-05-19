@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Enforce landscape orientation
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
-        startService(new Intent(this, MusicService.class));
+       // startService(new Intent(this, MusicService.class));
 
         setContentView(R.layout.activity_main);
 

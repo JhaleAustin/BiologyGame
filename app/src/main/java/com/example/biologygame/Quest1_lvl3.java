@@ -34,7 +34,7 @@ public class Quest1_lvl3 extends AppCompatActivity {
                 imageView4.setImageResource(R.drawable.quest1_lvl3_next); // Replace with your new image resource
 
             }
-        }, 10000); // 10000 milliseconds = 10 seconds
+        }, 5000); // 10000 milliseconds = 10 seconds
 
 
         handler.postDelayed(new Runnable() {
@@ -49,7 +49,7 @@ public class Quest1_lvl3 extends AppCompatActivity {
                 imageView.setVisibility(View.VISIBLE);
 
             }
-        }, 20000); // 10000 milliseconds = 10 seconds
+        }, 5000); // 10000 milliseconds = 10 seconds
 
 
 
