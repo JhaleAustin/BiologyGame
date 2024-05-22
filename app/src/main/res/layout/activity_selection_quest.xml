@@ -74,8 +74,8 @@
 
     <Button
         android:id="@+id/btnLevel5"
-        android:layout_width="106dp"
-        android:layout_height="84dp"
+        android:layout_width="88dp"
+        android:layout_height="64dp"
         android:layout_marginStart="300dp"
         android:layout_marginTop="52dp"
         android:backgroundTint="#00FFFFFF"
@@ -83,10 +83,10 @@
         android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btnLevel6"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnLevel4"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.392" />
 
     <Button
         android:id="@+id/btnLevel6"

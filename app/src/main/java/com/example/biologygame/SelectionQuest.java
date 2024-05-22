@@ -68,7 +68,7 @@ public class SelectionQuest extends AppCompatActivity {
         btnLevel4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(SelectionQuest.this, Quest5.class);
+                Intent intent = new Intent(SelectionQuest.this, Quest4.class);
                 startActivity(intent);
             }
         });

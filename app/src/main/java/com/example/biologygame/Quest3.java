@@ -34,307 +34,309 @@ public class Quest3 extends AppCompatActivity {
             public void run() {
                 imageView4.setImageResource(R.drawable.quest3_lvl1_2); // Replace with your new image resource
 
-            }
-        }, 20000); // 10000 milliseconds = 10 seconds
+                handler.postDelayed(new Runnable() {
+
+                    @Override
+                    public void run() {
+                        imageView4.setImageResource(R.drawable.quest3_lvl1_3); // Replace with your new image resource
+                        handler.postDelayed(new Runnable() {
+                            @Override
+                            public void run() {
+                                imageView4.setImageResource(R.drawable.quest3_lvl1_4); // Replace with your new image resource
+                                handler.postDelayed(new Runnable() {
+                                    @Override
+                                    public void run() {
+                                        imageView4.setImageResource(R.drawable.quest3_lvl1_5); // Replace with your new image resource
+
+                                        handler.postDelayed(new Runnable() {
+                                            @Override
+                                            public void run() {
+                                                imageView4.setImageResource(R.drawable.quest3_lvl1_6); // Replace with your new image resource
+                                                handler.postDelayed(new Runnable() {
+                                                    @Override
+                                                    public void run() {
+                                                        imageView4.setImageResource(R.drawable.quest3_lvl1_2); // Replace with your new image resource
+                                                        handler.postDelayed(new Runnable() {
+                                                            @Override
+                                                            public void run() {
+                                                                imageView4.setImageResource(R.drawable.quest3_lvl1_7); // Replace with your new image resource
+
+
+                                                                handler.postDelayed(new Runnable() {
+                                                                    @Override
+                                                                    public void run() {
+                                                                        imageView4.setImageResource(R.drawable.quest3_lvl1_8); // Replace with your new image resource
+
+                                                                        handler.postDelayed(new Runnable() {
+                                                                            @Override
+                                                                            public void run() {
+                                                                                imageView4.setImageResource(R.drawable.quest3_lvl1_9); // Replace with your new image resource
+                                                                                handler.postDelayed(new Runnable() {
+                                                                                    @Override
+                                                                                    public void run() {
+                                                                                        imageView4.setImageResource(R.drawable.quest3_lvl1_10); // Replace with your new image resource
+                                                                                        handler.postDelayed(new Runnable() {
+                                                                                            @Override
+                                                                                            public void run() {
+                                                                                                imageView4.setImageResource(R.drawable.quest3_lvl1_11); // Replace with your new image resource
+
+                                                                                                handler.postDelayed(new Runnable() {
+                                                                                                    @Override
+                                                                                                    public void run() {
+                                                                                                        imageView4.setImageResource(R.drawable.quest3_lvl1_12); // Replace with your new image resource
+                                                                                                        handler.postDelayed(new Runnable() {
+                                                                                                            @Override
+                                                                                                            public void run() {
+                                                                                                                imageView4.setImageResource(R.drawable.quest3_lvl1_13); // Replace with your new image resource
+
+                                                                                                                handler.postDelayed(new Runnable() {
+                                                                                                                    @Override
+                                                                                                                    public void run() {
+                                                                                                                        imageView4.setImageResource(R.drawable.quest3_lvl1_14); // Replace with your new image resource
+
+                                                                                                                        handler.postDelayed(new Runnable() {
+                                                                                                                            @Override
+                                                                                                                            public void run() {
+                                                                                                                                imageView4.setImageResource(R.drawable.quest3_lvl1_15); // Replace with your new image resource
+                                                                                                                                handler.postDelayed(new Runnable() {
+                                                                                                                                    @Override
+                                                                                                                                    public void run() {
+                                                                                                                                        imageView4.setImageResource(R.drawable.quest3_lvl1_16); // Replace with your new image resource
+
+                                                                                                                                        handler.postDelayed(new Runnable() {
+                                                                                                                                            @Override
+                                                                                                                                            public void run() {
+                                                                                                                                                imageView4.setImageResource(R.drawable.quest3_lvl1_17); // Replace with your new image resource
+
+                                                                                                                                                handler.postDelayed(new Runnable() {
+                                                                                                                                                    @Override
+                                                                                                                                                    public void run() {
+                                                                                                                                                        imageView4.setImageResource(R.drawable.quest3_lvl1_18); // Replace with your new image resource
+                                                                                                                                                        handler.postDelayed(new Runnable() {
+                                                                                                                                                            @Override
+                                                                                                                                                            public void run() {
+                                                                                                                                                                imageView4.setImageResource(R.drawable.quest3_lvl1_19); // Replace with your new image resource
+                                                                                                                                                                handler.postDelayed(new Runnable() {
+                                                                                                                                                                    @Override
+                                                                                                                                                                    public void run() {
+                                                                                                                                                                        imageView4.setImageResource(R.drawable.quest3_lvl1_20); // Replace with your new image resource
+                                                                                                                                                                        handler.postDelayed(new Runnable() {
+                                                                                                                                                                            @Override
+                                                                                                                                                                            public void run() {
+                                                                                                                                                                                imageView4.setImageResource(R.drawable.quest3_lvl1_21); // Replace with your new image resource
+
+                                                                                                                                                                                handler.postDelayed(new Runnable() {
+                                                                                                                                                                                    @Override
+                                                                                                                                                                                    public void run() {
+                                                                                                                                                                                        imageView4.setImageResource(R.drawable.quest3_lvl1_22); // Replace with your new image resource
+                                                                                                                                                                                        handler.postDelayed(new Runnable() {
+                                                                                                                                                                                            @Override
+                                                                                                                                                                                            public void run() {
+                                                                                                                                                                                                imageView4.setImageResource(R.drawable.quest3_lvl1_23); // Replace with your new image resource
+
+                                                                                                                                                                                                handler.postDelayed(new Runnable() {
+                                                                                                                                                                                                    @Override
+                                                                                                                                                                                                    public void run() {
+                                                                                                                                                                                                        imageView4.setImageResource(R.drawable.quest3_lvl1_24); // Replace with your new image resource
+                                                                                                                                                                                                        handler.postDelayed(new Runnable() {
+                                                                                                                                                                                                            @Override
+                                                                                                                                                                                                            public void run() {
+                                                                                                                                                                                                                imageView4.setImageResource(R.drawable.quest3_lvl1_25); // Replace with your new image resource
 
+                                                                                                                                                                                                                handler.postDelayed(new Runnable() {
+                                                                                                                                                                                                                    @Override
+                                                                                                                                                                                                                    public void run() {
+                                                                                                                                                                                                                        imageView4.setImageResource(R.drawable.quest3_lvl1_26); // Replace with your new image resource
 
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                imageView4.setImageResource(R.drawable.quest3_lvl1_3); // Replace with your new image resource
+                                                                                                                                                                                                                        handler.postDelayed(new Runnable() {
+                                                                                                                                                                                                                            @Override
+                                                                                                                                                                                                                            public void run() {
+                                                                                                                                                                                                                                imageView4.setImageResource(R.drawable.quest3_lvl1_27); // Replace with your new image resource
 
-            }
-        }, 20000); // 10000 milliseconds = 10 seconds
+                                                                                                                                                                                                                                handler.postDelayed(new Runnable() {
+                                                                                                                                                                                                                                    @Override
+                                                                                                                                                                                                                                    public void run() {
+                                                                                                                                                                                                                                        imageView4.setImageResource(R.drawable.quest3_lvl1_28); // Replace with your new image resource
 
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                imageView4.setImageResource(R.drawable.quest3_lvl1_4); // Replace with your new image resource
+                                                                                                                                                                                                                                        handler.postDelayed(new Runnable() {
+                                                                                                                                                                                                                                            @Override
+                                                                                                                                                                                                                                            public void run() {
+                                                                                                                                                                                                                                                imageView4.setImageResource(R.drawable.quest3_lvl1_29); // Replace with your new image resource
 
-            }
-        }, 20000); // 10000 milliseconds = 10 seconds
+                                                                                                                                                                                                                                                handler.postDelayed(new Runnable() {
+                                                                                                                                                                                                                                                    @Override
+                                                                                                                                                                                                                                                    public void run() {
+                                                                                                                                                                                                                                                        imageView4.setImageResource(R.drawable.quest3_lvl1_30); // Replace with your new image resource
 
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                imageView4.setImageResource(R.drawable.quest3_lvl1_5); // Replace with your new image resource
+                                                                                                                                                                                                                                                        handler.postDelayed(new Runnable() {
+                                                                                                                                                                                                                                                            @Override
+                                                                                                                                                                                                                                                            public void run() {
+                                                                                                                                                                                                                                                                imageView4.setImageResource(R.drawable.quest3_lvl1_31); // Replace with your new image resource
 
-            }
-        }, 20000); // 10000 milliseconds = 10 seconds
+                                                                                                                                                                                                                                                                handler.postDelayed(new Runnable() {
+                                                                                                                                                                                                                                                                    @Override
+                                                                                                                                                                                                                                                                    public void run() {
+                                                                                                                                                                                                                                                                        imageView4.setImageResource(R.drawable.quest3_lvl1_32); // Replace with your new image resource
 
+                                                                                                                                                                                                                                                                        handler.postDelayed(new Runnable() {
+                                                                                                                                                                                                                                                                            @Override
+                                                                                                                                                                                                                                                                            public void run() {
+                                                                                                                                                                                                                                                                                imageView4.setImageResource(R.drawable.quest3_lvl1_33); // Replace with your new image resource
+                                                                                                                                                                                                                                                                                handler.postDelayed(new Runnable() {
+                                                                                                                                                                                                                                                                                    @Override
+                                                                                                                                                                                                                                                                                    public void run() {
+                                                                                                                                                                                                                                                                                        imageView4.setImageResource(R.drawable.quest3_lvl1_34); // Replace with your new image resource
+                                                                                                                                                                                                                                                                                        handler.postDelayed(new Runnable() {
+                                                                                                                                                                                                                                                                                            @Override
+                                                                                                                                                                                                                                                                                            public void run() {
+                                                                                                                                                                                                                                                                                                imageView4.setImageResource(R.drawable.quest3_lvl1_35); // Replace with your new image resource
 
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                imageView4.setImageResource(R.drawable.quest3_lvl1_6); // Replace with your new image resource
+                                                                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                                                                        }, 10000); // 10000 milliseconds = 10 seconds
 
-            }
-        }, 20000); // 10000 milliseconds = 10 seconds
 
 
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                imageView4.setImageResource(R.drawable.quest3_lvl1_2); // Replace with your new image resource
+                                                                                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                                                                                }, 10000); // 10000 milliseconds = 10 seconds
 
-            }
-        }, 20000); // 10000 milliseconds = 10 seconds
 
 
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                imageView4.setImageResource(R.drawable.quest3_lvl1_7); // Replace with your new image resource
+                                                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                                                        }, 10000); // 10000 milliseconds = 10 seconds
 
-            }
-        }, 20000); // 10000 milliseconds = 10 seconds
 
+                                                                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                                                                }, 10000); // 10000 milliseconds = 10 seconds
 
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                imageView4.setImageResource(R.drawable.quest3_lvl1_8); // Replace with your new image resource
 
-            }
-        }, 20000); // 10000 milliseconds = 10 seconds
+                                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                                        }, 10000); // 10000 milliseconds = 10 seconds
 
 
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                imageView4.setImageResource(R.drawable.quest3_lvl1_9); // Replace with your new image resource
+                                                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                                                }, 10000); // 10000 milliseconds = 10 seconds
 
-            }
-        }, 20000); // 10000 milliseconds = 10 seconds
+                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                        }, 10000); // 10000 milliseconds = 10 seconds
 
+                                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                                }, 10000); // 10000 milliseconds = 10 seconds
 
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                imageView4.setImageResource(R.drawable.quest3_lvl1_10); // Replace with your new image resource
+                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                        }, 10000); // 10000 milliseconds = 10 seconds
 
-            }
-        }, 20000); // 10000 milliseconds = 10 seconds
 
+                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                }, 10000); // 10000 milliseconds = 10 seconds
 
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                imageView4.setImageResource(R.drawable.quest3_lvl1_11); // Replace with your new image resource
+                                                                                                                                                                                                            }
+                                                                                                                                                                                                        }, 10000); // 10000 milliseconds = 10 seconds
 
-            }
-        }, 20000); // 10000 milliseconds = 10 seconds
 
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                imageView4.setImageResource(R.drawable.quest3_lvl1_12); // Replace with your new image resource
+                                                                                                                                                                                                    }
+                                                                                                                                                                                                }, 10000); // 10000 milliseconds = 10 seconds
 
-            }
-        }, 20000); // 10000 milliseconds = 10 seconds
+                                                                                                                                                                                            }
+                                                                                                                                                                                        }, 10000); // 10000 milliseconds = 10 seconds
 
+                                                                                                                                                                                    }
+                                                                                                                                                                                }, 10000); // 10000 milliseconds = 10 seconds
 
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                imageView4.setImageResource(R.drawable.quest3_lvl1_13); // Replace with your new image resource
 
-            }
-        }, 20000); // 10000 milliseconds = 10 seconds
+                                                                                                                                                                            }
+                                                                                                                                                                        }, 10000); // 10000 milliseconds = 10 seconds
 
 
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                imageView4.setImageResource(R.drawable.quest3_lvl1_14); // Replace with your new image resource
+                                                                                                                                                                    }
+                                                                                                                                                                }, 10000); // 10000 milliseconds = 10 seconds
 
-            }
-        }, 20000); // 10000 milliseconds = 10 seconds
+                                                                                                                                                            }
+                                                                                                                                                        }, 10000); // 10000 milliseconds = 10 seconds
 
+                                                                                                                                                    }
+                                                                                                                                                }, 10000); // 10000 milliseconds = 10 seconds
 
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                imageView4.setImageResource(R.drawable.quest3_lvl1_15); // Replace with your new image resource
+                                                                                                                                            }
+                                                                                                                                        }, 10000); // 10000 milliseconds = 10 seconds
 
-            }
-        }, 20000); // 10000 milliseconds = 10 seconds
+                                                                                                                                    }
+                                                                                                                                }, 10000); // 10000 milliseconds = 10 seconds
 
 
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                imageView4.setImageResource(R.drawable.quest3_lvl1_16); // Replace with your new image resource
+                                                                                                                            }
+                                                                                                                        }, 10000); // 10000 milliseconds = 10 seconds
 
-            }
-        }, 20000); // 10000 milliseconds = 10 seconds
+                                                                                                                    }
+                                                                                                                }, 10000); // 10000 milliseconds = 10 seconds
 
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                imageView4.setImageResource(R.drawable.quest3_lvl1_17); // Replace with your new image resource
 
-            }
-        }, 20000); // 10000 milliseconds = 10 seconds
+                                                                                                            }
+                                                                                                        }, 10000); // 10000 milliseconds = 10 seconds
 
 
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                imageView4.setImageResource(R.drawable.quest3_lvl1_18); // Replace with your new image resource
+                                                                                                    }
+                                                                                                }, 10000); // 10000 milliseconds = 10 seconds
 
-            }
-        }, 20000); // 10000 milliseconds = 10 seconds
 
+                                                                                            }
+                                                                                        }, 10000); // 10000 milliseconds = 10 seconds
 
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                imageView4.setImageResource(R.drawable.quest3_lvl1_19); // Replace with your new image resource
+                                                                                    }
+                                                                                }, 10000); // 10000 milliseconds = 10 seconds
 
-            }
-        }, 20000); // 10000 milliseconds = 10 seconds
+                                                                            }
+                                                                        }, 10000); // 10000 milliseconds = 10 seconds
 
 
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                imageView4.setImageResource(R.drawable.quest3_lvl1_20); // Replace with your new image resource
+                                                                    }
+                                                                }, 10000); // 10000 milliseconds = 10 seconds
 
-            }
-        }, 20000); // 10000 milliseconds = 10 seconds
 
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                imageView4.setImageResource(R.drawable.quest3_lvl1_21); // Replace with your new image resource
+                                                            }
+                                                        }, 10000); // 10000 milliseconds = 10 seconds
 
-            }
-        }, 20000); // 10000 milliseconds = 10 seconds
+                                                    }
+                                                }, 10000); // 10000 milliseconds = 10 seconds
 
 
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                imageView4.setImageResource(R.drawable.quest3_lvl1_22); // Replace with your new image resource
+                                            }
+                                        }, 10000); // 10000 milliseconds = 10 seconds
 
-            }
-        }, 20000); // 10000 milliseconds = 10 seconds
 
+                                    }
+                                }, 10000); // 10000 milliseconds = 10 seconds
 
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                imageView4.setImageResource(R.drawable.quest3_lvl1_23); // Replace with your new image resource
+                            }
+                        }, 10000); // 10000 milliseconds = 10 seconds
 
-            }
-        }, 20000); // 10000 milliseconds = 10 seconds
-
-
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                imageView4.setImageResource(R.drawable.quest3_lvl1_24); // Replace with your new image resource
-
-            }
-        }, 20000); // 10000 milliseconds = 10 seconds
-
-
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                imageView4.setImageResource(R.drawable.quest3_lvl1_25); // Replace with your new image resource
-
-            }
-        }, 20000); // 10000 milliseconds = 10 seconds
-
-
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                imageView4.setImageResource(R.drawable.quest3_lvl1_26); // Replace with your new image resource
-
-            }
-        }, 20000); // 10000 milliseconds = 10 seconds
-
-
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                imageView4.setImageResource(R.drawable.quest3_lvl1_27); // Replace with your new image resource
-
-            }
-        }, 20000); // 10000 milliseconds = 10 seconds
-
-
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                imageView4.setImageResource(R.drawable.quest3_lvl1_28); // Replace with your new image resource
-
-            }
-        }, 20000); // 10000 milliseconds = 10 seconds
-
-
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                imageView4.setImageResource(R.drawable.quest3_lvl1_29); // Replace with your new image resource
-
-            }
-        }, 20000); // 10000 milliseconds = 10 seconds
-
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                imageView4.setImageResource(R.drawable.quest3_lvl1_30); // Replace with your new image resource
-
-            }
-        }, 20000); // 10000 milliseconds = 10 seconds
-
-
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                imageView4.setImageResource(R.drawable.quest3_lvl1_31); // Replace with your new image resource
-
-            }
-        }, 20000); // 10000 milliseconds = 10 seconds
-
-
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                imageView4.setImageResource(R.drawable.quest3_lvl1_32); // Replace with your new image resource
-
-            }
-        }, 20000); // 10000 milliseconds = 10 seconds
-
-
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                imageView4.setImageResource(R.drawable.quest3_lvl1_33); // Replace with your new image resource
+                    }
+                }, 10000); // 10000 milliseconds = 10 seconds
 
             }
-        }, 20000); // 10000 milliseconds = 10 seconds
-
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                imageView4.setImageResource(R.drawable.quest3_lvl1_34); // Replace with your new image resource
-
-            }
-        }, 20000); // 10000 milliseconds = 10 seconds
+        }, 10000); // 10000 milliseconds = 10 seconds
 
 
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                imageView4.setImageResource(R.drawable.quest3_lvl1_35); // Replace with your new image resource
 
-            }
-        }, 20000); // 10000 milliseconds = 10 seconds
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
