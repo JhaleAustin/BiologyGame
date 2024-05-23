@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
             // Finish current activity to prevent returning back to splash screen
             finish();
         });
-    }
+    //}
 
 //    protected void onCreate(Bundle savedInstanceState) {
 //        super.onCreate(savedInstanceState);
