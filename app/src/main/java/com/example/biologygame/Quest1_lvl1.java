@@ -8,17 +8,19 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
-
+import android.app.AlertDialog;
+import android.content.DialogInterface;
+import android.view.View;
+import android.widget.Button;
 public class Quest1_lvl1 extends AppCompatActivity {
     private Button btn1, btn2,btn3, btn4;
 
     private Button btn8, btn10,btn11, btn12,btn13;
 
-
     private Button btn19, btn20;
 
-
     private String selection="";
+
     private Button btn8_1, btn8_2,btn8_3,btn8_3_1;
 
     private Button btn10_1, btn10_2,btn10_3;
@@ -30,6 +32,7 @@ public class Quest1_lvl1 extends AppCompatActivity {
     private Button btn11_1, btn11_2;
 
     private ImageView img1, img2,img3, img4;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -228,37 +231,37 @@ public class Quest1_lvl1 extends AppCompatActivity {
         btn13_1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                selection="";
+                selection="prokaryotic cell";
             }
         });
         btn13_2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                selection="";
+                selection="eukaryotic cell";
             }
         });
         btn13_3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                selection="";
+                selection="prokaryotic cell";
             }
         });
         btn11_1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                selection="";
+                selection="eukaryotic cell";
             }
         });
         btn11_2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                selection="";
+                selection="prokaryotic cell";
             }
         });
         btn10_1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                selection="";
+                selection="eukaryotic cell";
             }
         });
 
@@ -267,7 +270,7 @@ public class Quest1_lvl1 extends AppCompatActivity {
         btn12_1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                selection="";
+                selection="prokaryotic cell";
             }
         });
 
@@ -276,21 +279,21 @@ public class Quest1_lvl1 extends AppCompatActivity {
         btn12_2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                selection="";
+                selection="prokaryotic cell";
             }
         });
 
         btn10_2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                selection="";
+                selection="prokaryotic cell";
             }
         });
 
         btn10_3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                selection="";
+                selection="prokaryotic cell";
             }
         });
 
@@ -339,14 +342,14 @@ public class Quest1_lvl1 extends AppCompatActivity {
         btn8_3_1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                selection="";
+                selection="eukaryotic cell";
             }
         });
 
         btn8_1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                selection="";
+                selection="prokaryotic cell";
 
             }
         });
@@ -354,7 +357,7 @@ public class Quest1_lvl1 extends AppCompatActivity {
         btn8_2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                selection="";
+                selection="prokaryotic cell";
 
             }
         });
@@ -365,7 +368,39 @@ public class Quest1_lvl1 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (selection == "prokaryotic cell"){
+                    AlertDialog.Builder builder = new AlertDialog.Builder(Quest1_lvl1.this);
+                    builder.setTitle("Correct Answer");
+                    builder.setMessage("The correct answer is: prokaryotic cell");
 
+                    // Add an OK button to the dialog
+                    builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            // Dismiss the dialog
+                            dialog.dismiss();
+                        }
+                    });
+
+                    // Show the dialog
+                    AlertDialog dialog = builder.create();
+                    dialog.show();
+                }else{
+                    AlertDialog.Builder builder = new AlertDialog.Builder(Quest1_lvl1.this);
+//                    builder.setTitle("Wrong Answer");
+                    builder.setMessage("Wrong Answer");
+
+                    // Add an OK button to the dialog
+                    builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            // Dismiss the dialog
+                            dialog.dismiss();
+                        }
+                    });
+
+                    // Show the dialog
+                    AlertDialog dialog = builder.create();
+                    dialog.show();
                 }
 
             }
@@ -377,7 +412,39 @@ public class Quest1_lvl1 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (selection == "eukaryotic cell"){
+                    AlertDialog.Builder builder = new AlertDialog.Builder(Quest1_lvl1.this);
+                    builder.setTitle("Correct Answer");
+                    builder.setMessage("The correct answer is: eukaryotic cell");
 
+                    // Add an OK button to the dialog
+                    builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            // Dismiss the dialog
+                            dialog.dismiss();
+                        }
+                    });
+
+                    // Show the dialog
+                    AlertDialog dialog = builder.create();
+                    dialog.show();
+                }else{
+                    AlertDialog.Builder builder = new AlertDialog.Builder(Quest1_lvl1.this);
+//                    builder.setTitle("Wrong Answer");
+                    builder.setMessage("Wrong Answer");
+
+                    // Add an OK button to the dialog
+                    builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            // Dismiss the dialog
+                            dialog.dismiss();
+                        }
+                    });
+
+                    // Show the dialog
+                    AlertDialog dialog = builder.create();
+                    dialog.show();
                 }
             }
         });

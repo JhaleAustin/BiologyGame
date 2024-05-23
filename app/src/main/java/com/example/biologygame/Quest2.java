@@ -21,25 +21,25 @@ public class Quest2 extends AppCompatActivity {
         setContentView(R.layout.activity_quest2);
 
 
-        btnLevel1 = findViewById(R.id.btnLevel1);
+//        btnLevel1 = findViewById(R.id.btnLevel1);
+//
+//        btnLevel1.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(Quest2.this, Quest2_lvl1.class);
+//                startActivity(intent);
+//            }
+//        });
+//
+//        btnLevel3 = findViewById(R.id.btnLevel3);
 
-        btnLevel1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Quest2.this, Quest2_lvl1.class);
-                startActivity(intent);
-            }
-        });
-
-        btnLevel3 = findViewById(R.id.btnLevel3);
-
-        btnLevel3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Quest2.this, Quest2_lvl2.class);
-                startActivity(intent);
-            }
-        });
+//        btnLevel3.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(Quest2.this, Quest2_lvl2.class);
+//                startActivity(intent);
+//            }
+//        });
 
 
 //        btnLevel4 = findViewById(R.id.btnLevel4);
