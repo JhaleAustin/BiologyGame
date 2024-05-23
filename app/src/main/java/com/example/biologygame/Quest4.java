@@ -29,25 +29,25 @@ public class Quest4 extends AppCompatActivity {
             }
         });
 
-        btnLevel2 = findViewById(R.id.btnLevel2);
-
-        btnLevel2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Quest4.this, Quest4_lvl2.class);
-                startActivity(intent);
-            }
-        });
-
-
-        btnLevel3 = findViewById(R.id.btnLevel3);
-
-        btnLevel3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Quest4.this, Quest4_lvl3.class);
-                startActivity(intent);
-            }
-        });
+//        btnLevel2 = findViewById(R.id.btnLevel2);
+//
+//        btnLevel2.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(Quest4.this, Quest4_lvl2.class);
+//                startActivity(intent);
+//            }
+//        });
+//
+//
+//        btnLevel3 = findViewById(R.id.btnLevel3);
+//
+//        btnLevel3.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(Quest4.this, Quest4_lvl3.class);
+//                startActivity(intent);
+//            }
+//        });
     }
 }

@@ -16,27 +16,32 @@ public class MainActivity extends AppCompatActivity {
 
         // Enforce landscape orientation
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
-       // startService(new Intent(this, MusicService.class));
+        // startService(new Intent(this, MusicService.class));
 
         setContentView(R.layout.activity_main);
 
+
+        Intent intent = new Intent(MainActivity.this, Menu.class);
+        startActivity(intent);
+
+
         VideoView videoView = findViewById(R.id.videoView);
 
-        // Set the video file in the raw folder (assuming it's named "splash_2.mp4")
-        Uri videoUri = Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.splash_2);
-        videoView.setVideoURI(videoUri);
-
-        // Start the video
-        videoView.setOnPreparedListener(mp -> mp.start());
-
-        // Transition to menu activity after the video finishes
-        videoView.setOnCompletionListener(mp -> {
-            Intent intent = new Intent(MainActivity.this, Menu.class);
-            startActivity(intent);
-            // Finish current activity to prevent returning back to splash screen
-            finish();
-        });
-    }
+//        // Set the video file in the raw folder (assuming it's named "splash_2.mp4")
+//        Uri videoUri = Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.splash_2);
+//        videoView.setVideoURI(videoUri);
+//
+//        // Start the video
+//        videoView.setOnPreparedListener(mp -> mp.start());
+//
+//        // Transition to menu activity after the video finishes
+//        videoView.setOnCompletionListener(mp -> {
+//            Intent intent = new Intent(MainActivity.this, Menu.class);
+//            startActivity(intent);
+//            // Finish current activity to prevent returning back to splash screen
+//            finish();
+//        });
+//    }
 
 //    protected void onCreate(Bundle savedInstanceState) {
 //        super.onCreate(savedInstanceState);
@@ -50,4 +55,5 @@ public class MainActivity extends AppCompatActivity {
 //        stopService(new Intent(this, MusicService.class));
 //    }
 //
+    }
 }

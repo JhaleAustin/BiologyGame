@@ -15,13 +15,8 @@ public class SelectionQuest extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
-
         setContentView(R.layout.activity_selection_quest);
-
-
-
         btnLevel1 = findViewById(R.id.btnLevel1);
 
         btnLevel1.setOnClickListener(new View.OnClickListener() {
@@ -63,7 +58,7 @@ public class SelectionQuest extends AppCompatActivity {
             }
         });
 
-        btnLevel5 = findViewById(R.id.btnLevel5);
+//        btnLevel5 = findViewById(R.id.btnLevel5);
 
         btnLevel4.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -74,26 +69,26 @@ public class SelectionQuest extends AppCompatActivity {
         });
 
 
-        btnLevel6 = findViewById(R.id.btnLevel6);
+//        btnLevel6 = findViewById(R.id.btnLevel6);
 
-        btnLevel6.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(SelectionQuest.this, Quest6.class);
-                startActivity(intent);
-            }
-        });
+//        btnLevel6.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(SelectionQuest.this, Quest6.class);
+//                startActivity(intent);
+//            }
+//        });
 
 
-        btnLevel7 = findViewById(R.id.btnLevel7);
+//        btnLevel7 = findViewById(R.id.btnLevel7);
 
-        btnLevel7.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(SelectionQuest.this, Quest7.class);
-                startActivity(intent);
-            }
-        });
+//        btnLevel7.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(SelectionQuest.this, Quest7.class);
+//                startActivity(intent);
+//            }
+//        });
 
     }
 }

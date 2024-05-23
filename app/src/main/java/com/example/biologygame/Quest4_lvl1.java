@@ -74,7 +74,7 @@ public class Quest4_lvl1 extends AppCompatActivity {
                 circleImage.setImageResource(R.drawable.d2);
                 break;
             case 2:
-                circleImage.setImageResource(R.drawable.bacteria);
+                circleImage.setImageResource(R.drawable.germs1);
                 // Set a click listener for bacteria circles
                 circleImage.setOnClickListener(new View.OnClickListener() {
                     @Override
