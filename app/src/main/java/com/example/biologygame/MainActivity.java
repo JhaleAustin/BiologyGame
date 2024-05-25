@@ -56,5 +56,24 @@ public class MainActivity extends AppCompatActivity {
 //        stopService(new Intent(this, MusicService.class));
 //    }
 
+
+
+//        protected void onCreate(Bundle savedInstanceState) {
+//            super.onCreate(savedInstanceState);
+//            setContentView(R.layout.activity_main);
+//
+//            // Start the music service
+//            Intent musicServiceIntent = new Intent(this, MusicService.class);
+//            startService(musicServiceIntent);
+//        }
+
+//        @Override
+//        protected void onDestroy() {
+//            super.onDestroy();
+//
+//            // Stop the music service when the main activity is destroyed
+//            Intent musicServiceIntent = new Intent(this, MusicService.class);
+//            stopService(musicServiceIntent);
+//        }
     }
 }

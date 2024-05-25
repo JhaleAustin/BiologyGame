@@ -6,6 +6,7 @@
     android:background="#FFC107"
     android:padding="16dp"
     tools:context=".Quest4_lvl3">
+
     <TextView
         android:id="@+id/word_description"
         android:layout_width="168dp"
@@ -67,12 +68,19 @@
         android:onClick="onSubmitClicked"
         android:text="Submit" />
 
-    <LinearLayout
-        android:id="@+id/letters_layout"
-        android:layout_width="wrap_content"
+    <!-- ScrollView to make the LinearLayout scrollable -->
+    <ScrollView
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/submit_button"
-        android:layout_marginTop="-161dp"
-        android:orientation="horizontal" />
+        android:layout_marginTop="-161dp">
+
+        <LinearLayout
+            android:id="@+id/letters_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" />
+
+    </ScrollView>
 
 </RelativeLayout>

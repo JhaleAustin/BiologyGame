@@ -1,12 +1,12 @@
 package com.example.biologygame;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class SelectionQuest extends AppCompatActivity {
 
@@ -69,26 +69,26 @@ public class SelectionQuest extends AppCompatActivity {
         });
 
 
-//        btnLevel6 = findViewById(R.id.btnLevel6);
+        btnLevel6 = findViewById(R.id.btnLevel6);
 
-//        btnLevel6.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent = new Intent(SelectionQuest.this, Quest6.class);
-//                startActivity(intent);
-//            }
-//        });
+        btnLevel6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(SelectionQuest.this, Quest6.class);
+                startActivity(intent);
+            }
+        });
 
 
-//        btnLevel7 = findViewById(R.id.btnLevel7);
+        btnLevel7 = findViewById(R.id.btnLevel7);
 
-//        btnLevel7.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent = new Intent(SelectionQuest.this, Quest7.class);
-//                startActivity(intent);
-//            }
-//        });
+        btnLevel7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(SelectionQuest.this, Quest7.class);
+                startActivity(intent);
+            }
+        });
 
     }
 }
