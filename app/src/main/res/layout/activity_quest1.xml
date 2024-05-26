@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#E80808"
     tools:context=".Quest1">
 
     <ImageView
@@ -25,7 +26,7 @@
         android:layout_width="108dp"
         android:layout_height="83dp"
         android:layout_marginStart="28dp"
-        android:backgroundTint="#00FFFFFF"
+        android:backgroundTint="#C66767"
         android:contentDescription="@string/app_name"
         android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
@@ -38,7 +39,7 @@
         android:layout_width="105dp"
         android:layout_height="84dp"
         android:layout_marginStart="56dp"
-        android:backgroundTint="#00FFFFFF"
+        android:backgroundTint="#704646"
         android:contentDescription="@string/app_name"
         android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
@@ -55,7 +56,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="308dp"
         android:layout_marginBottom="148dp"
-        android:backgroundTint="#00FFFFFF"
+        android:backgroundTint="#531616"
         android:contentDescription="@string/app_name"
         android:text=""
         app:layout_constraintBottom_toBottomOf="@+id/imageView4"
@@ -68,7 +69,7 @@
         android:layout_height="50dp"
         android:layout_marginTop="128dp"
         android:layout_marginEnd="228dp"
-        android:backgroundTint="#00FFFFFF"
+        android:backgroundTint="#D69898"
         android:contentDescription="@string/app_name"
         android:text=""
         app:layout_constraintEnd_toEndOf="@+id/imageView4"

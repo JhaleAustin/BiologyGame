@@ -1,7 +1,5 @@
 package com.example.biologygame;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.os.Handler;
@@ -14,6 +12,8 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import java.util.Random;
 
 public class Quest4_lvl2 extends AppCompatActivity {
@@ -23,7 +23,10 @@ public class Quest4_lvl2 extends AppCompatActivity {
     private Runnable circleSpawnRunnable;
     private Random random;
     private int lives = 3;
-    private TextView livesTextView;
+    private TextView livesTextView, timerTextView;
+    private long startTime;
+    private final int gameTime = 3 * 60 * 1000; // 3 minutes in milliseconds
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,11 +35,16 @@ public class Quest4_lvl2 extends AppCompatActivity {
         container = findViewById(R.id.container);
         cellImage = findViewById(R.id.cell_image);
         livesTextView = findViewById(R.id.lives_text_view);
+        timerTextView = findViewById(R.id.timer_text_view);
         handler = new Handler();
         random = new Random();
 
         // Display initial lives count
         updateLives();
+
+        // Start the game timer
+        startTime = System.currentTimeMillis();
+        startTimer();
 
         startSpawningCircles();
     }
@@ -140,7 +148,7 @@ public class Quest4_lvl2 extends AppCompatActivity {
 
     // Method to handle click on bacteria circles
     private void handleBacteriaClick(ImageView circleImage) {
-        Toast.makeText(this, "Boo!", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Bacteria eliminated!", Toast.LENGTH_SHORT).show();
         container.removeView(circleImage);
     }
 
@@ -168,24 +176,46 @@ public class Quest4_lvl2 extends AppCompatActivity {
         // Remove the collided circle
         container.removeView(circleImage);
 
-        // Check if the collided circle is a bacteria
+        // Decrease lives if the collided circle is a bacteria
         if (circleImage.getDrawable().getConstantState() == getResources().getDrawable(R.drawable.bacteria).getConstantState()) {
-            // Decrease lives
             lives--;
             updateLives();
 
             if (lives <= 0) {
                 // Display "Game Over" message
                 Toast.makeText(this, "Game Over!", Toast.LENGTH_SHORT).show();
-                // Optionally, you can take further actions here like restarting the game
+                stopGame();
             } else {
                 // Display "Dead!" message with the current lives count
                 Toast.makeText(this, "Dead! Lives: " + lives, Toast.LENGTH_SHORT).show();
             }
-        }else{
-            Toast.makeText(Quest4_lvl2.this, "Yehey!", Toast.LENGTH_SHORT).show();
-
         }
+    }
+
+    private void startTimer() {
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                long elapsedTime = System.currentTimeMillis() - startTime;
+                long remainingTime = gameTime - elapsedTime;
+
+                if (remainingTime > 0) {
+                    long minutes = (remainingTime / 1000) / 60;
+                    long seconds = (remainingTime / 1000) % 60;
+                    timerTextView.setText(String.format("Time: %02d:%02d", minutes, seconds));
+                    handler.postDelayed(this, 1000);
+                } else {
+                    // Time's up, show victory message
+                    Toast.makeText(Quest4_lvl2.this, "Victory!", Toast.LENGTH_SHORT).show();
+                    stopGame();
+                }
+            }
+        }, 1000);
+    }
+
+    private void stopGame() {
+        handler.removeCallbacks(circleSpawnRunnable);
+        handler.removeCallbacksAndMessages(null);
     }
 
     @Override
@@ -193,5 +223,6 @@ public class Quest4_lvl2 extends AppCompatActivity {
         super.onDestroy();
         // Remove callbacks to prevent memory leaks
         handler.removeCallbacks(circleSpawnRunnable);
+        handler.removeCallbacksAndMessages(null);
     }
 }

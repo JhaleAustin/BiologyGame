@@ -1,12 +1,12 @@
 package com.example.biologygame;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class Quest1 extends AppCompatActivity {
     private Button btnLevel1, btnLevel2,btnLevel3, btnLevel4;
@@ -29,12 +29,21 @@ public class Quest1 extends AppCompatActivity {
             }
         });
 
+        btnLevel2 = findViewById(R.id.btnLevel2);
+
+        btnLevel2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Quest1.this, Quest1_lvl2.class);
+                startActivity(intent);
+            }
+        });
         btnLevel3 = findViewById(R.id.btnLevel3);
 
         btnLevel3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Quest1.this, Quest1_lvl2.class);
+                Intent intent = new Intent(Quest1.this, Quest1_lvl3.class);
                 startActivity(intent);
             }
         });
@@ -45,7 +54,7 @@ public class Quest1 extends AppCompatActivity {
         btnLevel4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Quest1.this, Quest1_lvl3.class);
+                Intent intent = new Intent(Quest1.this, Quest1_lvl4.class);
                 startActivity(intent);
             }
         });
